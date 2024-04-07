@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/** header **/
+body{
+    background-color: #F4F2ED;
+    background-attachment: fixed;
+}
+
+.first-box{
+    position: absolute;
+    background-attachment: fixed;
+    background-color: #FFFFFF;
+    width: 375px;
+    height: auto;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    z-index: 1;
+    border: 1px;
+    box-shadow: 0 0 30px gray;
+}
+
+.header-image{
+    position: absolute;
+    width: 375px;
+    height: 93.75px;
+    background-image: url("header-image.jpeg");
+    background-size: contain;
+    z-index: 2;
+}
+
+.text{
+    margin-top: 40%;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid black;
+}
+
+.profile-pic{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-image: url("profile-pic.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    z-index: 3;
+    margin-left: 3%;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.intro{
+    width: 375px;
+    display: flex;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.gender{
+    font-weight: 500;
+    color: gray;
+    margin-left: 10px;
+    margin-top: 28px;
+}
+
+.headline{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.address{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-weight: 500;
+    color: gray;
+    cursor: pointer;
+}
+
+.contact-link{
+    color: #0A66C2;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.contact{
+    display: flex;
+    width: 375px;
+}
+
+/* about */
+.about{
+    border-bottom: 0.5px solid black;
+    padding-bottom: 20px;
+}
+
+.h-about{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.p-about{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* experience */
+.experience{
+    border-bottom: 0.5px solid black;
+    padding-bottom: 20px;
+}
+
+.h-experience{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.gfg{
+    width: 80px;
+    height: 80px;
+    background-image: url("gfg.jpeg");
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.exp1{
+    display: flex;
+}
+
+.desc-gfg{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.period{
+    font-weight: 500;
+    color: gray;
+    font-size: 12px;
+}
+
+.subheader{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.gdsc{
+    background-image: url("gdsc.jpeg");
+}
+
+.spe{
+    background-image: url("spe-removebg-preview.png");
+}
+
+/*education*/
+.education{
+    border-bottom: 0.5px solid black;
+    padding-bottom: 20px;
+}
+
+.h-education{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.rgipt{
+    background-image: url("rgipt.jpeg");
+    background-size: cover;
+    width: 85px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.rgipt-header{
+    margin-left: 20px;
+}
+
+.rgipt-subheader{
+    margin-left: 20px;
+}
+
+.cv{
+    background-image: url("cv.jpeg");
+    background-image: cover;
+    width: 95px;
+    height: 90px;
+}
+
+.cv-header{
+    margin-left: 0;
+    margin-top: 20px;
+}
