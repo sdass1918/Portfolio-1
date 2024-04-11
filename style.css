@@ -3,6 +3,11 @@
     border: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+a{
+    text-decoration: none;
+    display: flex;
+    color: black;
+}
 
 /** header **/
 body{
@@ -113,6 +118,7 @@ body{
 .p-about{
     padding-left: 10px;
     padding-top: 10px;
+    font-size: 14px;
 }
 
 /* experience */
@@ -200,4 +206,118 @@ body{
 .cv-header{
     margin-left: 0;
     margin-top: 20px;
+}
+
+/** projrts **/
+.projects{
+    border-bottom: 0.5px solid black;
+    padding-bottom: 20px;
+}
+
+.h-projects{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.h-p1{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.p1{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.sample-text{
+    max-height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.see-more{
+    color: gray;
+    position: absolute;
+    bottom: 10;
+    right: 0;
+    padding-right: 5px;
+}
+
+.skills{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.link{
+    display: flex;
+}
+
+.thumbnail{
+    width: 104px;
+    height: 56px;
+    background-image: url("Screenshot\ 2024-04-10\ at\ 5.17.02\ PM.png");
+    background-size: cover;
+    border: 0px solid black;
+    border-radius: 10px;
+}
+
+.p1-link{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.line{
+    border-top: 0.3px solid black;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.p2{
+    background-image: url("Screenshot\ 2024-04-10\ at\ 5.40.50\ PM.png");
+}
+
+/** skills **/
+.skills-section{
+    border-bottom: 0.5px solid black;
+    padding-bottom: 20px;
+}
+
+.h-skills{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.s1{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.subheading-p1{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.subheading-p2{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.logo-chef{
+    display: flex;
+    padding-top: 20px;
+}
+
+.logo-codechef{
+    background-image: url("codechef.jpeg");
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+
+.platform{
+    font-size: 14px;
+    padding-top: 4px;
+    padding-left: 3px;
 }
