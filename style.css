@@ -256,7 +256,7 @@ body{
 .thumbnail{
     width: 104px;
     height: 56px;
-    background-image: url("Screenshot\ 2024-04-10\ at\ 5.17.02\ PM.png");
+    background-image: url("Amazon.png");
     background-size: cover;
     border: 0px solid black;
     border-radius: 10px;
@@ -275,7 +275,7 @@ body{
 }
 
 .p2{
-    background-image: url("Screenshot\ 2024-04-10\ at\ 5.40.50\ PM.png");
+    background-image: url("Portfolio.png");
 }
 
 /** skills **/
