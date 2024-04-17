@@ -119,6 +119,7 @@ body{
     padding-left: 10px;
     padding-top: 10px;
     font-size: 14px;
+    padding-right: 6px;
 }
 
 /* experience */
@@ -234,6 +235,7 @@ body{
     max-height: 50px;
     overflow: hidden;
     position: relative;
+    padding-right: 6px;
 }
 
 .see-more{
