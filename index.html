@@ -21,15 +21,36 @@
                 <p class="headline">🏆 JEE Advanced '23 | ⭐⭐ 2-Star Coder @CodeChef (1400) | 💻 Web Dev Enthusiast | Skilled in C, C++, Python | 📈 Codeforces Newbie (955)</p>
                 <div class="contact">
                     <h5 class="address">Bokaro Steel City, India</h5>
-                    <h5 class="contact-link">Contact info</h5>
+                    <a href="#" id="openPopup"><h5 class="contact-link">Contact info</h5></a>
                 </div>
             </div>
             
             <div class="about">
                 <h3 class="h-about">About</h3>
-                <p class="p-about">Hey! I am currently pursuing my bachelors in mathematics and computing at RGIPT- an Institute of national importance. I love photography, filmmaking and am a tech and startup enthusiast at heart. I have cracked IIT-JEE Advanced 2023 and looking forward to advance my career with sheer hardwork, passion and dedication.</p>
-            </div>
+                <p class="p-about">Hello, I am Sudipta 👋<br><br>
 
+                    As an engineering student at the prestigious Rajiv Gandhi Institute of Petroleum Technology, an Institution of National Importance, I take immense pride in being among the top 10% of my batch. 🏆 My academic journey has been marked by numerous accomplishments, including cracking the highly competitive JEE Advanced examination in 2023, paving the way for my BTech in Mathematics and Computing. 💻<br><br>
+                    
+                    Fueled by an insatiable curiosity and a passion for problem-solving, I actively participate in competitive programming platforms like CodeChef and Codeforces. 🏆 These platforms have not only honed my coding skills but have also taught me the value of perseverance and adaptability in the face of complex challenges. 💪<br><br>
+                    
+                    Beyond the realm of academics, my interests span across a diverse array of domains. As a tech enthusiast, I remain on the cutting edge of technological advancements, constantly exploring new frameworks and tools in the ever-evolving world of web development. 🌐 Furthermore, my creative side finds expression through the lenses of my camera, where I capture the beauty of the world around me and craft captivating visual narratives through photography and filmmaking. 📷🎥<br><br>
+                    
+                    Complementing my technical and creative pursuits, I have had the privilege of being an active member of the GeeksforGeeks Student Chapter and the Google Developer Students Club at my college. 🌟 These experiences have not only enriched my knowledge but have also fostered my leadership skills and ability to thrive in collaborative environments, contributing to technical and design teams. 🤝<br><br>
+                    
+                    With an unwavering dedication, a multidimensional skillset, and a thirst for knowledge that knows no bounds, I am poised to make a significant impact in the dynamic tech landscape. 🚀 My unique blend of technical expertise, creative flair, and involvement in prestigious student organizations makes me an invaluable asset to any team or organization that values innovation, creativity, and a relentless pursuit of excellence. 🔥
+                </p>
+                <a href="#" class="see-more-about">...see more</a>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                $(document).ready(function(){
+                    $('.see-more-about').click(function(e){
+                    e.preventDefault();
+                    $(this).prev('.p-about').css('max-height', 'none'); // Remove the max-height to reveal full text
+                    $(this).hide(); // Hide the "See More" link
+                    });
+                });
+            </script>
             <div class="experience">
                 <h3 class="h-experience">Experience</h3>
                 <div class="exp1">
@@ -181,7 +202,28 @@ Continuously refining and expanding upon the project, I am committed to enhancin
                 </div>
             </div>
         </div>
-        
     </header>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+          <span class="close" id="closePopup">&times;</span>
+          <div class="contactme">
+            <i class="fa-brands fa-square-instagram"></i>
+            <a href="https://www.instagram.com/s_dass1918/" target="_blank"><h4 class="name-id">@s_dass1918</a></h4>
+          </div>
+          <div class="line"></div>
+          <div class="contactme">
+            <i class="fa-brands fa-google"></i>
+            <a href="https://www.gmail.com" target="_blank"><h4 class="name-id">sd1216826@gmail.com</a></h4>
+          </div>
+          <div class="line"></div>
+          <div class="contactme">
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+91 9905612470" target="_blank"><h4 class="name-id bottom">9905612470</a></h4>
+          </div>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
 </body>
 </html>
